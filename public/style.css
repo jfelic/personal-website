@@ -1,12 +1,21 @@
 * {
     /* border: .50px solid red; */
     background-color: #F0EFEA;
-    font-family: "Raleway", sans-serif;;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+h1 {
+    font-weight: lighter;
+    font-style: italic;
 }
 
 nav {
     box-shadow: 0 1px gray;
     padding: .50rem;
+    display: flex;
     flex-direction: row;
 }
 
@@ -18,8 +27,11 @@ nav {
 }
 
 .logo {
-    max-width: 100%;
-    height: auto;
+    display: flex;
+}
+
+.logo img {
+    height: 5rem;
 }
 
 .nav-list-elements {
